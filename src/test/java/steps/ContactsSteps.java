@@ -14,7 +14,6 @@ public class ContactsSteps extends TestBase {
 
     ContactsPage contactsPage;
 
-
     @Then("Free account should appear")
     public void Email_textField_should_appear() {
         contactsPage.checkContacts();

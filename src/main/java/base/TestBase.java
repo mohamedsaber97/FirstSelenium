@@ -22,7 +22,6 @@ public class TestBase {
         FileInputStream configFile = new FileInputStream(
                 "src/main/java/base/TestConfig");
         prop.load(configFile);
-
     }
 
     public static void initialization(String browser) {
@@ -36,7 +35,7 @@ public class TestBase {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         } else {
-            throw new Error("------browser not supported");
+            throw new Error("------browser not supported------");
         }
 
         action = new Actions(driver);

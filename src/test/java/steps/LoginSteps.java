@@ -32,12 +32,10 @@ public class LoginSteps extends TestBase {
     public void user_fill_email_and_password_and_click_on_login(DataTable dataTable) throws IOException {
         loginPage = new LoginPage();
         homePage = loginPage.loginValid(dataTable);
-
     }
 
     @Then("User see error message")
     public void User_see_error_message() {
-
         loginPage.errorMsg();
     }
 

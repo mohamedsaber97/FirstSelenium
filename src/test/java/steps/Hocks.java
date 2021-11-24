@@ -13,7 +13,7 @@ public class Hocks extends TestBase {
 
     @Before("@Sanity")
     public void beforeTestCase() {
-        System.out.println("----------run before test");
+        System.out.println("----------run before test-----------");
     }
 
     @After
