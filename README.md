@@ -1,4 +1,4 @@
-# first
+# First Repo
 Base Automation Project
 
 Features:
