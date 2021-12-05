@@ -16,3 +16,4 @@ Feature:Test the login functionality
     When User fill email as email and password and click on login
       | msaber9765@gmail.com | Saber116232 |
     Then User should navigate to home page
+
