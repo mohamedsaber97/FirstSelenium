@@ -23,4 +23,9 @@ public class HomeSteps extends TestBase {
         homePage = new HomePage();
         homePage.openContacts();
     }
+    @And("User take a snapshot")
+    public void userTakeASnapshot() throws IOException {
+        homePage = new HomePage();
+        takeSnapshot();
+    }
 }
